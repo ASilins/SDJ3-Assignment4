@@ -1,4 +1,4 @@
-package via.group1.assign3.protobuf;
+package via.sdj3.app.protobuf;
 
 import static io.grpc.MethodDescriptor.generateFullMethodName;
 
@@ -14,29 +14,29 @@ public final class SlaughterhouseGrpc {
   public static final String SERVICE_NAME = "Slaughterhouse";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.ProductId,
-      via.group1.assign3.protobuf.InvolvedAnimals> getRetrieveRegNumsMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.ProductId,
+      via.sdj3.app.protobuf.InvolvedAnimals> getRetrieveRegNumsMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "retrieveRegNums",
-      requestType = via.group1.assign3.protobuf.ProductId.class,
-      responseType = via.group1.assign3.protobuf.InvolvedAnimals.class,
+      requestType = via.sdj3.app.protobuf.ProductId.class,
+      responseType = via.sdj3.app.protobuf.InvolvedAnimals.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.ProductId,
-      via.group1.assign3.protobuf.InvolvedAnimals> getRetrieveRegNumsMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.ProductId, via.group1.assign3.protobuf.InvolvedAnimals> getRetrieveRegNumsMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.ProductId,
+      via.sdj3.app.protobuf.InvolvedAnimals> getRetrieveRegNumsMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.ProductId, via.sdj3.app.protobuf.InvolvedAnimals> getRetrieveRegNumsMethod;
     if ((getRetrieveRegNumsMethod = SlaughterhouseGrpc.getRetrieveRegNumsMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getRetrieveRegNumsMethod = SlaughterhouseGrpc.getRetrieveRegNumsMethod) == null) {
           SlaughterhouseGrpc.getRetrieveRegNumsMethod = getRetrieveRegNumsMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.ProductId, via.group1.assign3.protobuf.InvolvedAnimals>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.ProductId, via.sdj3.app.protobuf.InvolvedAnimals>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "retrieveRegNums"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.ProductId.getDefaultInstance()))
+                  via.sdj3.app.protobuf.ProductId.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.InvolvedAnimals.getDefaultInstance()))
+                  via.sdj3.app.protobuf.InvolvedAnimals.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("retrieveRegNums"))
               .build();
         }
@@ -45,29 +45,29 @@ public final class SlaughterhouseGrpc {
     return getRetrieveRegNumsMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalId,
-      via.group1.assign3.protobuf.InvolvedProducts> getRetrieveProdNumsMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalId,
+      via.sdj3.app.protobuf.InvolvedProducts> getRetrieveProdNumsMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "retrieveProdNums",
-      requestType = via.group1.assign3.protobuf.AnimalId.class,
-      responseType = via.group1.assign3.protobuf.InvolvedProducts.class,
+      requestType = via.sdj3.app.protobuf.AnimalId.class,
+      responseType = via.sdj3.app.protobuf.InvolvedProducts.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalId,
-      via.group1.assign3.protobuf.InvolvedProducts> getRetrieveProdNumsMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalId, via.group1.assign3.protobuf.InvolvedProducts> getRetrieveProdNumsMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalId,
+      via.sdj3.app.protobuf.InvolvedProducts> getRetrieveProdNumsMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalId, via.sdj3.app.protobuf.InvolvedProducts> getRetrieveProdNumsMethod;
     if ((getRetrieveProdNumsMethod = SlaughterhouseGrpc.getRetrieveProdNumsMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getRetrieveProdNumsMethod = SlaughterhouseGrpc.getRetrieveProdNumsMethod) == null) {
           SlaughterhouseGrpc.getRetrieveProdNumsMethod = getRetrieveProdNumsMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.AnimalId, via.group1.assign3.protobuf.InvolvedProducts>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.AnimalId, via.sdj3.app.protobuf.InvolvedProducts>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "retrieveProdNums"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.AnimalId.getDefaultInstance()))
+                  via.sdj3.app.protobuf.AnimalId.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.InvolvedProducts.getDefaultInstance()))
+                  via.sdj3.app.protobuf.InvolvedProducts.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("retrieveProdNums"))
               .build();
         }
@@ -76,29 +76,29 @@ public final class SlaughterhouseGrpc {
     return getRetrieveProdNumsMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalGrpc,
-      via.group1.assign3.protobuf.AnimalGrpc> getCreateAnimalMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalGrpc,
+      via.sdj3.app.protobuf.AnimalGrpc> getCreateAnimalMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "createAnimal",
-      requestType = via.group1.assign3.protobuf.AnimalGrpc.class,
-      responseType = via.group1.assign3.protobuf.AnimalGrpc.class,
+      requestType = via.sdj3.app.protobuf.AnimalGrpc.class,
+      responseType = via.sdj3.app.protobuf.AnimalGrpc.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalGrpc,
-      via.group1.assign3.protobuf.AnimalGrpc> getCreateAnimalMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalGrpc, via.group1.assign3.protobuf.AnimalGrpc> getCreateAnimalMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalGrpc,
+      via.sdj3.app.protobuf.AnimalGrpc> getCreateAnimalMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalGrpc, via.sdj3.app.protobuf.AnimalGrpc> getCreateAnimalMethod;
     if ((getCreateAnimalMethod = SlaughterhouseGrpc.getCreateAnimalMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getCreateAnimalMethod = SlaughterhouseGrpc.getCreateAnimalMethod) == null) {
           SlaughterhouseGrpc.getCreateAnimalMethod = getCreateAnimalMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.AnimalGrpc, via.group1.assign3.protobuf.AnimalGrpc>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.AnimalGrpc, via.sdj3.app.protobuf.AnimalGrpc>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "createAnimal"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.AnimalGrpc.getDefaultInstance()))
+                  via.sdj3.app.protobuf.AnimalGrpc.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.AnimalGrpc.getDefaultInstance()))
+                  via.sdj3.app.protobuf.AnimalGrpc.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("createAnimal"))
               .build();
         }
@@ -107,29 +107,29 @@ public final class SlaughterhouseGrpc {
     return getCreateAnimalMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.NoParam,
-      via.group1.assign3.protobuf.ListOfAnimals> getGetAllAnimalsMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.NoParam,
+      via.sdj3.app.protobuf.ListOfAnimals> getGetAllAnimalsMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "getAllAnimals",
-      requestType = via.group1.assign3.protobuf.NoParam.class,
-      responseType = via.group1.assign3.protobuf.ListOfAnimals.class,
+      requestType = via.sdj3.app.protobuf.NoParam.class,
+      responseType = via.sdj3.app.protobuf.ListOfAnimals.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.NoParam,
-      via.group1.assign3.protobuf.ListOfAnimals> getGetAllAnimalsMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.NoParam, via.group1.assign3.protobuf.ListOfAnimals> getGetAllAnimalsMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.NoParam,
+      via.sdj3.app.protobuf.ListOfAnimals> getGetAllAnimalsMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.NoParam, via.sdj3.app.protobuf.ListOfAnimals> getGetAllAnimalsMethod;
     if ((getGetAllAnimalsMethod = SlaughterhouseGrpc.getGetAllAnimalsMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getGetAllAnimalsMethod = SlaughterhouseGrpc.getGetAllAnimalsMethod) == null) {
           SlaughterhouseGrpc.getGetAllAnimalsMethod = getGetAllAnimalsMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.NoParam, via.group1.assign3.protobuf.ListOfAnimals>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.NoParam, via.sdj3.app.protobuf.ListOfAnimals>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "getAllAnimals"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.NoParam.getDefaultInstance()))
+                  via.sdj3.app.protobuf.NoParam.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.ListOfAnimals.getDefaultInstance()))
+                  via.sdj3.app.protobuf.ListOfAnimals.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("getAllAnimals"))
               .build();
         }
@@ -138,29 +138,29 @@ public final class SlaughterhouseGrpc {
     return getGetAllAnimalsMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalId,
-      via.group1.assign3.protobuf.AnimalGrpc> getGetByIdMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalId,
+      via.sdj3.app.protobuf.AnimalGrpc> getGetByIdMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "getById",
-      requestType = via.group1.assign3.protobuf.AnimalId.class,
-      responseType = via.group1.assign3.protobuf.AnimalGrpc.class,
+      requestType = via.sdj3.app.protobuf.AnimalId.class,
+      responseType = via.sdj3.app.protobuf.AnimalGrpc.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalId,
-      via.group1.assign3.protobuf.AnimalGrpc> getGetByIdMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.AnimalId, via.group1.assign3.protobuf.AnimalGrpc> getGetByIdMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalId,
+      via.sdj3.app.protobuf.AnimalGrpc> getGetByIdMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.AnimalId, via.sdj3.app.protobuf.AnimalGrpc> getGetByIdMethod;
     if ((getGetByIdMethod = SlaughterhouseGrpc.getGetByIdMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getGetByIdMethod = SlaughterhouseGrpc.getGetByIdMethod) == null) {
           SlaughterhouseGrpc.getGetByIdMethod = getGetByIdMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.AnimalId, via.group1.assign3.protobuf.AnimalGrpc>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.AnimalId, via.sdj3.app.protobuf.AnimalGrpc>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "getById"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.AnimalId.getDefaultInstance()))
+                  via.sdj3.app.protobuf.AnimalId.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.AnimalGrpc.getDefaultInstance()))
+                  via.sdj3.app.protobuf.AnimalGrpc.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("getById"))
               .build();
         }
@@ -169,29 +169,29 @@ public final class SlaughterhouseGrpc {
     return getGetByIdMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.Origin,
-      via.group1.assign3.protobuf.ListOfAnimals> getGetByOriginMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.Origin,
+      via.sdj3.app.protobuf.ListOfAnimals> getGetByOriginMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "getByOrigin",
-      requestType = via.group1.assign3.protobuf.Origin.class,
-      responseType = via.group1.assign3.protobuf.ListOfAnimals.class,
+      requestType = via.sdj3.app.protobuf.Origin.class,
+      responseType = via.sdj3.app.protobuf.ListOfAnimals.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.Origin,
-      via.group1.assign3.protobuf.ListOfAnimals> getGetByOriginMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.Origin, via.group1.assign3.protobuf.ListOfAnimals> getGetByOriginMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.Origin,
+      via.sdj3.app.protobuf.ListOfAnimals> getGetByOriginMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.Origin, via.sdj3.app.protobuf.ListOfAnimals> getGetByOriginMethod;
     if ((getGetByOriginMethod = SlaughterhouseGrpc.getGetByOriginMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getGetByOriginMethod = SlaughterhouseGrpc.getGetByOriginMethod) == null) {
           SlaughterhouseGrpc.getGetByOriginMethod = getGetByOriginMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.Origin, via.group1.assign3.protobuf.ListOfAnimals>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.Origin, via.sdj3.app.protobuf.ListOfAnimals>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "getByOrigin"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.Origin.getDefaultInstance()))
+                  via.sdj3.app.protobuf.Origin.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.ListOfAnimals.getDefaultInstance()))
+                  via.sdj3.app.protobuf.ListOfAnimals.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("getByOrigin"))
               .build();
         }
@@ -200,29 +200,29 @@ public final class SlaughterhouseGrpc {
     return getGetByOriginMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<via.group1.assign3.protobuf.Date,
-      via.group1.assign3.protobuf.ListOfAnimals> getGetByDateMethod;
+  private static volatile io.grpc.MethodDescriptor<via.sdj3.app.protobuf.Date,
+      via.sdj3.app.protobuf.ListOfAnimals> getGetByDateMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "getByDate",
-      requestType = via.group1.assign3.protobuf.Date.class,
-      responseType = via.group1.assign3.protobuf.ListOfAnimals.class,
+      requestType = via.sdj3.app.protobuf.Date.class,
+      responseType = via.sdj3.app.protobuf.ListOfAnimals.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<via.group1.assign3.protobuf.Date,
-      via.group1.assign3.protobuf.ListOfAnimals> getGetByDateMethod() {
-    io.grpc.MethodDescriptor<via.group1.assign3.protobuf.Date, via.group1.assign3.protobuf.ListOfAnimals> getGetByDateMethod;
+  public static io.grpc.MethodDescriptor<via.sdj3.app.protobuf.Date,
+      via.sdj3.app.protobuf.ListOfAnimals> getGetByDateMethod() {
+    io.grpc.MethodDescriptor<via.sdj3.app.protobuf.Date, via.sdj3.app.protobuf.ListOfAnimals> getGetByDateMethod;
     if ((getGetByDateMethod = SlaughterhouseGrpc.getGetByDateMethod) == null) {
       synchronized (SlaughterhouseGrpc.class) {
         if ((getGetByDateMethod = SlaughterhouseGrpc.getGetByDateMethod) == null) {
           SlaughterhouseGrpc.getGetByDateMethod = getGetByDateMethod =
-              io.grpc.MethodDescriptor.<via.group1.assign3.protobuf.Date, via.group1.assign3.protobuf.ListOfAnimals>newBuilder()
+              io.grpc.MethodDescriptor.<via.sdj3.app.protobuf.Date, via.sdj3.app.protobuf.ListOfAnimals>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "getByDate"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.Date.getDefaultInstance()))
+                  via.sdj3.app.protobuf.Date.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  via.group1.assign3.protobuf.ListOfAnimals.getDefaultInstance()))
+                  via.sdj3.app.protobuf.ListOfAnimals.getDefaultInstance()))
               .setSchemaDescriptor(new SlaughterhouseMethodDescriptorSupplier("getByDate"))
               .build();
         }
@@ -281,50 +281,50 @@ public final class SlaughterhouseGrpc {
 
     /**
      */
-    public void retrieveRegNums(via.group1.assign3.protobuf.ProductId request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.InvolvedAnimals> responseObserver) {
+    public void retrieveRegNums(via.sdj3.app.protobuf.ProductId request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.InvolvedAnimals> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getRetrieveRegNumsMethod(), responseObserver);
     }
 
     /**
      */
-    public void retrieveProdNums(via.group1.assign3.protobuf.AnimalId request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.InvolvedProducts> responseObserver) {
+    public void retrieveProdNums(via.sdj3.app.protobuf.AnimalId request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.InvolvedProducts> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getRetrieveProdNumsMethod(), responseObserver);
     }
 
     /**
      */
-    public void createAnimal(via.group1.assign3.protobuf.AnimalGrpc request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.AnimalGrpc> responseObserver) {
+    public void createAnimal(via.sdj3.app.protobuf.AnimalGrpc request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.AnimalGrpc> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getCreateAnimalMethod(), responseObserver);
     }
 
     /**
      */
-    public void getAllAnimals(via.group1.assign3.protobuf.NoParam request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals> responseObserver) {
+    public void getAllAnimals(via.sdj3.app.protobuf.NoParam request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetAllAnimalsMethod(), responseObserver);
     }
 
     /**
      */
-    public void getById(via.group1.assign3.protobuf.AnimalId request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.AnimalGrpc> responseObserver) {
+    public void getById(via.sdj3.app.protobuf.AnimalId request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.AnimalGrpc> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetByIdMethod(), responseObserver);
     }
 
     /**
      */
-    public void getByOrigin(via.group1.assign3.protobuf.Origin request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals> responseObserver) {
+    public void getByOrigin(via.sdj3.app.protobuf.Origin request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetByOriginMethod(), responseObserver);
     }
 
     /**
      */
-    public void getByDate(via.group1.assign3.protobuf.Date request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals> responseObserver) {
+    public void getByDate(via.sdj3.app.protobuf.Date request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetByDateMethod(), responseObserver);
     }
 
@@ -334,50 +334,50 @@ public final class SlaughterhouseGrpc {
             getRetrieveRegNumsMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.ProductId,
-                via.group1.assign3.protobuf.InvolvedAnimals>(
+                via.sdj3.app.protobuf.ProductId,
+                via.sdj3.app.protobuf.InvolvedAnimals>(
                   this, METHODID_RETRIEVE_REG_NUMS)))
           .addMethod(
             getRetrieveProdNumsMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.AnimalId,
-                via.group1.assign3.protobuf.InvolvedProducts>(
+                via.sdj3.app.protobuf.AnimalId,
+                via.sdj3.app.protobuf.InvolvedProducts>(
                   this, METHODID_RETRIEVE_PROD_NUMS)))
           .addMethod(
             getCreateAnimalMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.AnimalGrpc,
-                via.group1.assign3.protobuf.AnimalGrpc>(
+                via.sdj3.app.protobuf.AnimalGrpc,
+                via.sdj3.app.protobuf.AnimalGrpc>(
                   this, METHODID_CREATE_ANIMAL)))
           .addMethod(
             getGetAllAnimalsMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.NoParam,
-                via.group1.assign3.protobuf.ListOfAnimals>(
+                via.sdj3.app.protobuf.NoParam,
+                via.sdj3.app.protobuf.ListOfAnimals>(
                   this, METHODID_GET_ALL_ANIMALS)))
           .addMethod(
             getGetByIdMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.AnimalId,
-                via.group1.assign3.protobuf.AnimalGrpc>(
+                via.sdj3.app.protobuf.AnimalId,
+                via.sdj3.app.protobuf.AnimalGrpc>(
                   this, METHODID_GET_BY_ID)))
           .addMethod(
             getGetByOriginMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.Origin,
-                via.group1.assign3.protobuf.ListOfAnimals>(
+                via.sdj3.app.protobuf.Origin,
+                via.sdj3.app.protobuf.ListOfAnimals>(
                   this, METHODID_GET_BY_ORIGIN)))
           .addMethod(
             getGetByDateMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                via.group1.assign3.protobuf.Date,
-                via.group1.assign3.protobuf.ListOfAnimals>(
+                via.sdj3.app.protobuf.Date,
+                via.sdj3.app.protobuf.ListOfAnimals>(
                   this, METHODID_GET_BY_DATE)))
           .build();
     }
@@ -399,56 +399,56 @@ public final class SlaughterhouseGrpc {
 
     /**
      */
-    public void retrieveRegNums(via.group1.assign3.protobuf.ProductId request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.InvolvedAnimals> responseObserver) {
+    public void retrieveRegNums(via.sdj3.app.protobuf.ProductId request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.InvolvedAnimals> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getRetrieveRegNumsMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void retrieveProdNums(via.group1.assign3.protobuf.AnimalId request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.InvolvedProducts> responseObserver) {
+    public void retrieveProdNums(via.sdj3.app.protobuf.AnimalId request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.InvolvedProducts> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getRetrieveProdNumsMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void createAnimal(via.group1.assign3.protobuf.AnimalGrpc request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.AnimalGrpc> responseObserver) {
+    public void createAnimal(via.sdj3.app.protobuf.AnimalGrpc request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.AnimalGrpc> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getCreateAnimalMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void getAllAnimals(via.group1.assign3.protobuf.NoParam request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals> responseObserver) {
+    public void getAllAnimals(via.sdj3.app.protobuf.NoParam request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetAllAnimalsMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void getById(via.group1.assign3.protobuf.AnimalId request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.AnimalGrpc> responseObserver) {
+    public void getById(via.sdj3.app.protobuf.AnimalId request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.AnimalGrpc> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetByIdMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void getByOrigin(via.group1.assign3.protobuf.Origin request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals> responseObserver) {
+    public void getByOrigin(via.sdj3.app.protobuf.Origin request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetByOriginMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void getByDate(via.group1.assign3.protobuf.Date request,
-        io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals> responseObserver) {
+    public void getByDate(via.sdj3.app.protobuf.Date request,
+        io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetByDateMethod(), getCallOptions()), request, responseObserver);
     }
@@ -470,49 +470,49 @@ public final class SlaughterhouseGrpc {
 
     /**
      */
-    public via.group1.assign3.protobuf.InvolvedAnimals retrieveRegNums(via.group1.assign3.protobuf.ProductId request) {
+    public via.sdj3.app.protobuf.InvolvedAnimals retrieveRegNums(via.sdj3.app.protobuf.ProductId request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getRetrieveRegNumsMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public via.group1.assign3.protobuf.InvolvedProducts retrieveProdNums(via.group1.assign3.protobuf.AnimalId request) {
+    public via.sdj3.app.protobuf.InvolvedProducts retrieveProdNums(via.sdj3.app.protobuf.AnimalId request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getRetrieveProdNumsMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public via.group1.assign3.protobuf.AnimalGrpc createAnimal(via.group1.assign3.protobuf.AnimalGrpc request) {
+    public via.sdj3.app.protobuf.AnimalGrpc createAnimal(via.sdj3.app.protobuf.AnimalGrpc request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getCreateAnimalMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public via.group1.assign3.protobuf.ListOfAnimals getAllAnimals(via.group1.assign3.protobuf.NoParam request) {
+    public via.sdj3.app.protobuf.ListOfAnimals getAllAnimals(via.sdj3.app.protobuf.NoParam request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetAllAnimalsMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public via.group1.assign3.protobuf.AnimalGrpc getById(via.group1.assign3.protobuf.AnimalId request) {
+    public via.sdj3.app.protobuf.AnimalGrpc getById(via.sdj3.app.protobuf.AnimalId request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetByIdMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public via.group1.assign3.protobuf.ListOfAnimals getByOrigin(via.group1.assign3.protobuf.Origin request) {
+    public via.sdj3.app.protobuf.ListOfAnimals getByOrigin(via.sdj3.app.protobuf.Origin request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetByOriginMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public via.group1.assign3.protobuf.ListOfAnimals getByDate(via.group1.assign3.protobuf.Date request) {
+    public via.sdj3.app.protobuf.ListOfAnimals getByDate(via.sdj3.app.protobuf.Date request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetByDateMethod(), getCallOptions(), request);
     }
@@ -534,56 +534,56 @@ public final class SlaughterhouseGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.InvolvedAnimals> retrieveRegNums(
-        via.group1.assign3.protobuf.ProductId request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.InvolvedAnimals> retrieveRegNums(
+        via.sdj3.app.protobuf.ProductId request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getRetrieveRegNumsMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.InvolvedProducts> retrieveProdNums(
-        via.group1.assign3.protobuf.AnimalId request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.InvolvedProducts> retrieveProdNums(
+        via.sdj3.app.protobuf.AnimalId request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getRetrieveProdNumsMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.AnimalGrpc> createAnimal(
-        via.group1.assign3.protobuf.AnimalGrpc request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.AnimalGrpc> createAnimal(
+        via.sdj3.app.protobuf.AnimalGrpc request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getCreateAnimalMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.ListOfAnimals> getAllAnimals(
-        via.group1.assign3.protobuf.NoParam request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.ListOfAnimals> getAllAnimals(
+        via.sdj3.app.protobuf.NoParam request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetAllAnimalsMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.AnimalGrpc> getById(
-        via.group1.assign3.protobuf.AnimalId request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.AnimalGrpc> getById(
+        via.sdj3.app.protobuf.AnimalId request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetByIdMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.ListOfAnimals> getByOrigin(
-        via.group1.assign3.protobuf.Origin request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.ListOfAnimals> getByOrigin(
+        via.sdj3.app.protobuf.Origin request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetByOriginMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<via.group1.assign3.protobuf.ListOfAnimals> getByDate(
-        via.group1.assign3.protobuf.Date request) {
+    public com.google.common.util.concurrent.ListenableFuture<via.sdj3.app.protobuf.ListOfAnimals> getByDate(
+        via.sdj3.app.protobuf.Date request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetByDateMethod(), getCallOptions()), request);
     }
@@ -615,32 +615,32 @@ public final class SlaughterhouseGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_RETRIEVE_REG_NUMS:
-          serviceImpl.retrieveRegNums((via.group1.assign3.protobuf.ProductId) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.InvolvedAnimals>) responseObserver);
+          serviceImpl.retrieveRegNums((via.sdj3.app.protobuf.ProductId) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.InvolvedAnimals>) responseObserver);
           break;
         case METHODID_RETRIEVE_PROD_NUMS:
-          serviceImpl.retrieveProdNums((via.group1.assign3.protobuf.AnimalId) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.InvolvedProducts>) responseObserver);
+          serviceImpl.retrieveProdNums((via.sdj3.app.protobuf.AnimalId) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.InvolvedProducts>) responseObserver);
           break;
         case METHODID_CREATE_ANIMAL:
-          serviceImpl.createAnimal((via.group1.assign3.protobuf.AnimalGrpc) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.AnimalGrpc>) responseObserver);
+          serviceImpl.createAnimal((via.sdj3.app.protobuf.AnimalGrpc) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.AnimalGrpc>) responseObserver);
           break;
         case METHODID_GET_ALL_ANIMALS:
-          serviceImpl.getAllAnimals((via.group1.assign3.protobuf.NoParam) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals>) responseObserver);
+          serviceImpl.getAllAnimals((via.sdj3.app.protobuf.NoParam) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals>) responseObserver);
           break;
         case METHODID_GET_BY_ID:
-          serviceImpl.getById((via.group1.assign3.protobuf.AnimalId) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.AnimalGrpc>) responseObserver);
+          serviceImpl.getById((via.sdj3.app.protobuf.AnimalId) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.AnimalGrpc>) responseObserver);
           break;
         case METHODID_GET_BY_ORIGIN:
-          serviceImpl.getByOrigin((via.group1.assign3.protobuf.Origin) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals>) responseObserver);
+          serviceImpl.getByOrigin((via.sdj3.app.protobuf.Origin) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals>) responseObserver);
           break;
         case METHODID_GET_BY_DATE:
-          serviceImpl.getByDate((via.group1.assign3.protobuf.Date) request,
-              (io.grpc.stub.StreamObserver<via.group1.assign3.protobuf.ListOfAnimals>) responseObserver);
+          serviceImpl.getByDate((via.sdj3.app.protobuf.Date) request,
+              (io.grpc.stub.StreamObserver<via.sdj3.app.protobuf.ListOfAnimals>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -664,7 +664,7 @@ public final class SlaughterhouseGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return via.group1.assign3.protobuf.Assign3.getDescriptor();
+      return via.sdj3.app.protobuf.Assign3.getDescriptor();
     }
 
     @java.lang.Override

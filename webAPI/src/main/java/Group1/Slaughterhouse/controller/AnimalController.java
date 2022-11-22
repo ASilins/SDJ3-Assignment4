@@ -23,17 +23,13 @@ public class AnimalController {
         this.service = service;
     }
 
-    @GetMapping("/test")
-    public String test() {
-        return "test";
-    }
-
     @PostMapping("/animal")
     public ResponseEntity<Object> createAnimal(@RequestBody Animal animal) {
         try {
             Animal createdAnimal = service.create(animal);
             return new ResponseEntity<>(createdAnimal, HttpStatus.OK);
         } catch (Exception e) {
+            e.printStackTrace();
             return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);
         }
     }
@@ -49,7 +45,7 @@ public class AnimalController {
     }
 
     @GetMapping(value = "/animal/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Object> getById(@PathVariable("id") Long id) {
+    public ResponseEntity<Object> getById(@PathVariable("id") int id) {
         try {
             Animal animal = service.getById(id);
             return new ResponseEntity<>(animal, HttpStatus.OK);

@@ -1,21 +1,19 @@
 package Group1.Slaughterhouse.service;
 
-import java.util.ArrayList;
+import java.util.List;
 
-import org.springframework.stereotype.Service;
 import Group1.Slaughterhouse.objects.Animal;
 
-@Service
 public interface AnimalService {
 
     Animal create(Animal a);
 
-    ArrayList<Animal> getAllAnimals();
+    List<Animal> getAllAnimals();
 
-    Animal getById(Long id);
+    Animal getById(int id);
 
-    ArrayList<Animal> getByOrigin(String origin);
+    List<Animal> getByOrigin(String origin);
 
-    ArrayList<Animal> getByDate(String date);
+    List<Animal> getByDate(String date);
 
 }

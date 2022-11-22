@@ -1,4 +1,4 @@
-package Group1.Slaughterhouse.objects;
+package via.sdj3.app.objects;
 
 import org.springframework.stereotype.Component;
 
